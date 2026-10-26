@@ -30,7 +30,7 @@ public class StringCodePractice {
         }
         System.out.println("Logic-3 Reverce String: " + rev);
 
-        //Logic- 4 Using a array
+        //Logic- 4 Using array
 
 
 /********************************************************************************************/
