@@ -10,15 +10,18 @@ public class DuplicateValueFromList {
     public static void main(String[] args) {
 
         List<Integer> numbers = Arrays.asList(10, 20, 30, 20, 40, 10, 50);
-        Set<Integer> unique = new HashSet<>();
-        Set<Integer> duplicates = new HashSet<>();
+        Set<Integer> uniques = new HashSet<Integer>();
+        Set<Integer> duplicates = new HashSet<Integer>();
 
+        //Unique stores value encountered for the first time
+        //duplicates stores value that appear more than once
         for(int num : numbers){
-            if(!unique.add(num)){
+            if(!uniques.add(num)){
                 duplicates.add(num);
             }
         }
 
         System.out.println("Duplicate Values Are: " + duplicates);
+
     }
 }

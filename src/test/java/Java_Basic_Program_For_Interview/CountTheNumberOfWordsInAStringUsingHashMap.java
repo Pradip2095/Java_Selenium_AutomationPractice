@@ -9,7 +9,7 @@ public class CountTheNumberOfWordsInAStringUsingHashMap {
     public static void main(String[] args) {
 
         //Write a Java Program to count the number of words in a string using HashMap.
-        String str = "This this is done by Pradip Gaikwad";
+        String str = "This is done by Pradip Gaikwad";
         String[] strArray = str.split("");
         Map<String, Integer> map = new HashMap<String, Integer>();
 
