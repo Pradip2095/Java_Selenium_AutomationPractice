@@ -1,6 +1,6 @@
 package Java_Basic_Program_For_Interview;
 
-public class Palindrome {
+public class Palindrome_String {
 
     public static void main(String[] args) {
 
