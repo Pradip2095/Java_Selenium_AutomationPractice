@@ -13,7 +13,7 @@ public class DisplayAllPrimeNumbersFrom1ToN {
     }
 
     public static void primeNumber(int range) {
-       /*{
+       {
             int x,y,flag;
             for (x = 1; x <= range; x++) {
                 if (x == 1 || x == 0)
@@ -31,11 +31,11 @@ public class DisplayAllPrimeNumbersFrom1ToN {
                 }
             }
 
-        }*/
+        }
 
 
         //Logic - 2
-        for (int x = 2; x <= range; x++) {
+        /*for (int x = 2; x <= range; x++) {
 
             boolean isPrime = true;
 
@@ -49,7 +49,7 @@ public class DisplayAllPrimeNumbersFrom1ToN {
             if (isPrime) {
                 System.out.println(x);
             }
-        }
+        }*/
 
     }
 }
